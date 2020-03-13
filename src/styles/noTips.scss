@@ -1,0 +1,22 @@
+.no_tips {
+    width: 100%;
+    height: 11rem;
+    .no_tips_img {
+        padding-top: 3rem;
+        width: 4rem;
+        height: 4rem;
+       margin: auto;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .risk_text_no {
+        margin-top: .4rem;
+        font-size: .7rem;
+        color: #929292;
+        letter-spacing: 0;
+        text-align: center;
+    }
+}

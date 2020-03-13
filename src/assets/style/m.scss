@@ -1,0 +1,359 @@
+@charset "utf-8";
+@import "./varibale.scss";
+// 字体颜色
+@mixin font_color(){
+	[data-theme="6"] & {
+		color:$font-color-zysx;
+	}
+	
+}
+@mixin font_color1(){
+	[data-theme="6"] & {
+		color:$font-color-zysx1;
+	}
+}
+@mixin font_color2(){
+	[data-theme="6"] & {
+		color:$font-color-zysx2;
+	}
+}
+@mixin font_color3(){
+	[data-theme="6"] & {
+		color:$font-color-zysx3;
+	}
+}
+@mixin font_color4(){
+	[data-theme="6"] & {
+		color:$font-color-zysx4;
+	}
+}
+@mixin font_color5(){
+	[data-theme="6"] & {
+		color:$font-color-zysx5;
+	}
+}
+@mixin font_color6(){
+	[data-theme="6"] & {
+		color:$font-color-zysx6;
+	}
+}
+@mixin font_color7(){
+	[data-theme="6"] & {
+		color:$font-color-zysx7;
+	}
+}
+@mixin font_color8(){
+	[data-theme="6"] & {
+		color:$font-color-zysx8;
+	}
+}
+@mixin font_color9(){
+	[data-theme="6"] & {
+		color:$font-color-zysx9;
+	}
+}
+@mixin font_color10(){
+	[data-theme="6"] & {
+		color:$font-color-zysx10;
+	}
+}
+@mixin font_color11(){
+	[data-theme="6"] & {
+		color:$font-color-zysx11;
+	}
+}
+@mixin font_color12(){
+	[data-theme="6"] & {
+		color:$font-color-zysx12;
+	}
+}
+@mixin font_color13(){
+	[data-theme="6"] & {
+		color:$font-color-zysx13;
+	}
+}
+@mixin font_color14(){
+	[data-theme="6"] & {
+		color:$font-color-zysx14;
+	}
+}
+@mixin font_color15(){
+	[data-theme="6"] & {
+		color:$font-color-zysx15;
+	}
+}
+@mixin font_color16(){
+	[data-theme="6"] & {
+		color:$font-color-zysx16 !important;
+	}
+}
+@mixin font_color17(){
+	[data-theme="6"] & {
+		color:$font-color-zysx17;
+	}
+}
+// 背景颜色
+@mixin bg_color(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx;
+	}
+}
+@mixin bg_color1(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx1;
+	}
+}
+@mixin bg_color2(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx2;
+	}
+}
+@mixin bg_color3(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx3;
+	}
+}
+@mixin bg_color4(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx4;
+	}
+}
+@mixin bg_color5(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx5;
+	}
+}
+@mixin bg_color6(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx6;
+	}
+}
+@mixin bg_color7(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx7;
+	}
+}
+@mixin bg_color8(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx8;
+	}
+}
+@mixin bg_color9(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx9;
+	}
+}
+@mixin bg_color10(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx10;
+	}
+}
+@mixin bg_color11(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx11;
+	}
+}
+@mixin bg_color12(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx12;
+	}
+}
+@mixin bg_color13(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx13;
+	}
+}
+@mixin bg_color14(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx14;
+	}
+}
+@mixin bg_color15(){
+	[data-theme="6"] & {
+		background-image:$background-color-zysx15;
+	}
+}
+@mixin bg_color16(){
+	[data-theme="6"] & {
+		background-image:$background-color-zysx16;
+	}
+}
+@mixin bg_color17(){
+	[data-theme="6"] & {
+		background-image:$background-color-zysx17;
+	}
+}
+@mixin bg_color18(){
+	[data-theme="6"] & {
+		background-image:$background-color-zysx18;
+	}
+}
+@mixin bg_color19(){
+	[data-theme="6"] & {
+		background-image:$background-color-zysx19;
+	}
+}
+@mixin bg_color20(){
+	[data-theme="6"] & {
+		background-image:$background-color-zysx20;
+	}
+}
+@mixin bg_color21(){
+	[data-theme="6"] & {
+		background-image:$background-color-zysx21;
+	}
+}
+@mixin bg_color22(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx22;
+	}
+}
+@mixin bg_color23(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx23;
+	}
+}
+@mixin bg_color24(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx24;
+	}
+}
+@mixin bg_color25(){
+	[data-theme="6"] & {
+		background-color:$background-color-zysx25;
+	}
+}
+// 阴影颜色
+@mixin box_shodow($val){
+	[data-theme="6"] & {
+		box-shadow: $val $box-shodow;
+	}
+}
+@mixin _box_shodow($val1, $val2){
+	[data-theme="6"] & {
+		box-shadow: $val1, $val2 $box-shodow;
+	}
+}
+@mixin box_shodow1($val){
+	[data-theme="6"] & {
+		box-shadow: $val $box-shodow1;
+	}
+}
+@mixin box_shodow2($val){
+	[data-theme="6"] & {
+		box-shadow: $val $box-shodow2;
+	}
+}
+@mixin box_shodow3($val){
+	[data-theme="6"] & {
+		box-shadow: $val $box-shodow3;
+	}
+}@mixin box_shodow4($val){
+	[data-theme="6"] & {
+		box-shadow: $val $box-shodow4;
+	}
+}
+@mixin box_shodow5($val){
+	[data-theme="6"] & {
+		box-shadow: $val $box-shodow5;
+	}
+}
+
+//  边框
+@mixin border($val){
+	[data-theme="6"] & {
+		border: $val $border;
+	}
+}
+@mixin border1($val){
+	[data-theme="6"] & {
+		border: $val $border1;
+	}
+}
+@mixin border2($val){
+	[data-theme="6"] & {
+		border: $val $border2;
+	}
+}
+@mixin border3($val){
+	[data-theme="6"] & {
+		border: $val $border3;
+	}
+}
+@mixin border4($val){
+	[data-theme="6"] & {
+		border: $val $border4;
+	}
+}
+@mixin border5($val){
+	[data-theme="6"] & {
+		border: $val $border5;
+	}
+}
+@mixin border6($val){
+	[data-theme="6"] & {
+		border: $val $border6;
+	}
+}
+@mixin border7($val){
+	[data-theme="6"] & {
+		border: $val $border7;
+	}
+}
+@mixin border8($val){
+	[data-theme="6"] & {
+		border-bottom: $val $border8;
+	}
+}
+@mixin border9($val){
+	[data-theme="6"] & {
+		border: $val $border9 !important;;
+	}
+}
+@mixin border10($val){
+	[data-theme="6"] & {
+		border: $val $border10;
+	}
+}
+// 边框颜色
+
+@mixin border_color(){
+	[data-theme="6"] & {
+		border-color: $border-color;
+	}
+}
+@mixin border_color1(){
+	[data-theme="6"] & {
+		border-color: $border-color1;
+	}
+}
+@mixin border_color2(){
+	[data-theme="6"] & {
+		border-color: $border-color2;
+	}
+}
+@mixin border_color3(){
+	[data-theme="6"] & {
+		border-color: $border-color3;
+	}
+}
+@mixin border_color4(){
+	[data-theme="6"] & {
+		border-color: $border-color4;
+	}
+}
+// 左边款颜色
+
+@mixin border_left($val){
+	[data-theme="6"] & {
+		border-left: $val $border-left;
+	}
+}
+
+// 渐变色
+
+@mixin background-image(){
+	[data-theme="6"] & {
+		background-image: linear-gradient(38deg, $background-image1 0%, $background-image2 100%);
+	}
+}

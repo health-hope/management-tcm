@@ -1,0 +1,57 @@
+.current_target_type {
+    .nav_bar {
+      // width: 100%;
+      height: 2.5rem;
+      position: relative;
+      background: #f7f7f7;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06);
+      margin-top: .9rem;
+      overflow: hidden;
+      display: block;
+      box-sizing: border-box;
+      .nav_bar_ul {
+        height: 2.5rem;
+        overflow: hidden;
+        padding-left: .6rem;
+        list-style: none;
+        overflow: hidden;
+        display: block;
+        box-sizing: border-box;
+        .nav_bar_li {
+          display: inline-block;
+          position: relative;
+          width: 2.7rem;;
+          font-size: .7rem;
+          color: #929292;
+          letter-spacing: 0;
+          line-height: 0.75rem;
+          margin-right: 0.2rem;
+          line-height: 2.5rem;
+          div{
+            display: block;
+            width: 100%;
+            text-align: center;
+          }
+          i {
+            display: none;
+            width: 0.8rem;
+            height: 0.15rem;
+            position: absolute;
+            bottom: .05rem;
+            left: 50%;
+            margin-left: -0.4rem;
+            border-radius: 0.075rem;
+          }
+        }
+      }
+    }
+  }
+  
+  .on {
+    display: block !important;
+    background: #4566ea;
+  }
+  .on_current {
+    font-size: 0.9rem !important;
+    color: #252525 !important;
+  }

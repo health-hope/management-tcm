@@ -1,0 +1,204 @@
+.foodlist-container {
+    background: rgb(247, 247, 247);
+   
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    .fix_box {
+      z-index: 100;
+    }
+  
+    header {
+      padding: 0.5rem 0.75rem;
+      .model_inpt {
+        box-sizing: border-box;
+        background: #ededed;
+        border-radius: 0.3rem;
+        padding: 0.275rem 0.6rem;
+        color: #606060;
+        height: 1.5rem;
+        font-size: 0.7rem;
+        color: #cccccc;
+        font-weight: bold;
+        .icon_search {
+          width: 0.75rem;
+          margin-right: .2rem;
+        }
+      }
+    }
+  
+    .banner {
+      height: 2.5rem;
+      line-height: 2.5rem;
+      font-size: 0.8rem;
+      color: #929292;
+      background: #ffffff;
+      box-shadow: 0 0.2rem 0.3rem 0 rgba(0, 0, 0, 0.05);
+  
+      li {
+        height: 100%;
+      }
+      .active {
+        color: #4566ea;
+  
+        &::after {
+          content: "";
+          display: block;
+          position: absolute;
+          bottom: 0;
+          margin: 0 auto;
+          left: 0;
+          right: 0;
+          background: #4566ea;
+          height: 0.15rem;
+          border-radius: 0.075rem;
+          width: 0.8rem;
+        }
+      }
+    }
+    .router_container {
+      padding-top: 5rem;
+      padding-bottom: 2.4rem;
+    }
+    // 热量选择
+    .food_detail {
+      z-index: 50000 !important;
+    }
+    footer {
+      z-index: 3000;
+      height: 2.4rem;
+      padding: 0 0.65rem;
+      box-sizing: border-box;
+      box-shadow: 0 0.1rem 0.3rem 0 rgba(138, 169, 173, 0.06);
+      .footer_right {
+        font-size: 0.75rem;
+  
+        border-radius: 1.25rem;
+        height: 1.6rem;
+  
+        width: 5rem;
+      }
+      .footer_container {
+        padding-left: 0.35rem;
+        .footer_mid {
+          font-size: 0.65rem;
+          color: #606060;
+          margin-right: 0.8rem;
+          .val {
+            font-size: 0.9rem;
+            margin-left: 0.3rem;
+            margin-right: 0.1rem;
+            color: #406bdd;
+          }
+          .unit {
+            color: #406bdd;
+          }
+        }
+        .footer_left {
+          .icon_triangle {
+            width: 0.375rem;
+            transition: all 0.2s linear;
+            margin-right: 0.3rem;
+          }
+          &.active {
+            .icon_triangle {
+              transform: rotate(180deg);
+            }
+          }
+          p {
+            margin-left: 0.3rem;
+            font-size: 0.8rem;
+            color: #252525;
+          }
+          span.after {
+            top: -0.1rem;
+            right: -0.9rem;
+            width: 0.8rem;
+            height: 0.8rem;
+            border-radius: 50%;
+            font-size: 0.6rem;
+            color: #fff;
+            background: #f16c6c;
+          }
+        }
+      }
+      .footer_container_empty {
+        .footer_left {
+          font-size: 0.7rem;
+          color: #929292;
+        }
+      }
+    }
+    .mint-popup {
+      width: 100%;
+    }
+    .tabber {
+    }
+    .selected_list {
+      height: 18.375rem;
+      overflow: scroll;
+      // padding-bottom: 0;
+      // padding-bottom: 2.4rem;
+    }
+    // 自定义列表
+    .custom_container {
+      min-height: 100%;
+      .add_custom_btn_container {
+        padding: 0.4rem 0.8rem 0;
+      }
+      .add_custom_food {
+        height: 2.2rem;
+        font-size: 0.75rem;
+        color: #406bdd;
+        background: rgba(69, 102, 234, 0.1);
+        border-radius: 1.1rem;
+        .icon {
+          width: 0.75rem;
+          margin-right: 0.3rem;
+        }
+      }
+      // 自定义食物提示
+      .note {
+        font-size: 0.75rem;
+        color: #929292;
+        padding: 0.6rem 0;
+      }
+      // 没有自定义列表的占位图 运动
+      .sport_custom_list.empty{
+        background-image: url(~@/assets/plan/emptySport.png);
+        background-size:4rem 4rem;
+        background-position: center 4.5rem;
+        background-repeat: no-repeat;
+        &::after{
+          content: "还没有自定义运动";
+          position: absolute;
+          top: 8.9rem;
+          left: 0;
+          right: 0;
+          margin: auto;
+          text-align: center;
+          font-size: .7rem;
+          color: #929292;
+        }
+      }
+       // 没有自定义列表的占位图 食物
+       .food_custom_list.empty{
+        background-image: url(~@/assets/plan/emptyFood.png);
+        background-size:4rem 4rem;
+        background-position: center 4.5rem;
+        background-repeat: no-repeat ;
+        &::after{
+          content: "还没有自定义饮食";
+          position: absolute;
+          top: 8.9rem;
+          left: 0;
+          right: 0;
+          margin: auto;
+          text-align: center;
+          font-size: .7rem;
+          color: #929292;
+        }
+      }
+    }
+  }

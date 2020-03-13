@@ -1,0 +1,504 @@
+// 心系  start
+$background-color-zyxx: #de9648;
+$background-color-zyxx1: #f6f1ec;
+$background-color-zyxx2: #e2e7d0;
+$background-color-zyxx3: #cad1b2;
+$background-color-zyxx4: #e2dddc;
+$background-color-zyxx5: #efaa60;
+$background-color-zyxx6: #ffffff;
+$background-color-zyxx7: rgba(239, 236, 226, 0.2);
+$background-color-zyxx8: rgba(222, 150, 72, 0.5);
+$background-color-zyxx9: rgba(208, 186, 179, 0.14);       //// 参考文献背景 
+// loading
+$background-color-zyxx10: rgba(0,0,0,0.20);
+$background-color-zyxx11: rgba(255,255,255,0.80);
+// pop
+$background-color-zyxx12: rgba(0, 0, 0, 0.72);
+$background-color-zyxx13: #ccb8b7;
+$background-color-zyxx14: rgba(255, 255, 255, 0.9);
+// tag 渐变
+$background-color-zyxx15: linear-gradient(269deg, #bfd7e4 0%, #aeccdc 100%);
+$background-color-zyxx16: linear-gradient(90deg,
+#ccd7a7 0%,
+#dae3bc 100%);
+
+$background-color-zyxx17: linear-gradient(269deg,
+#ece1c9 0%,
+#e2d3b4 100%);
+
+$background-color-zyxx18: linear-gradient(269deg,
+#e7d7bf 0%,
+#e0c8a5 100%);
+
+$background-color-zyxx19: linear-gradient(90deg,
+#b5c1f1 0%,
+#c4cff4 100%);
+
+$background-color-zyxx20: linear-gradient(90deg,
+#f1d9b5 0%,
+#f4c4c4 100%);
+
+$background-color-zyxx21: linear-gradient(90deg,
+#f1cfb5 0%,
+#f4d8c4 100%);
+$background-color-zyxx22: rgba(255,255,255,0.90);
+$background-color-zyxx23: rgba(208,186,179,0.14);
+$background-color-zyxx24: rgba(204,184,183,0.5);
+$background-color-zyxx25: rgba(222,150,72,0.50);
+
+$font-color-zyxx: #ab8987;
+$font-color-zyxx1: #713A30;
+$font-color-zyxx2: #2f0000;
+$font-color-zyxx3: #e2dddc;
+$font-color-zyxx4: #333333;
+$font-color-zyxx5: #999999;
+$font-color-zyxx6: #ffffff;
+$font-color-zyxx7: #2a2a2a;
+$font-color-zyxx8: #666666;
+$font-color-zyxx9: rgba(113, 58, 48, 0.6);
+$font-color-zyxx10: #de9648;
+$font-color-zyxx11: #efaa60;
+$font-color-zyxx12: #C4C4C4;
+$font-color-zyxx13:  rgba(113,58,48,0.6);
+$font-color-zyxx14:  #C4C4C4; 
+$font-color-zyxx15: #DE9648;
+$font-color-zyxx16: #DE9648;
+$font-color-zyxx17:  #C7B1AF;
+$font-color-zyxx18:  #E65F5F;       //多吃了
+
+$box-shodow: rgba(222, 150, 72, 0.5);
+$box-shodow1: rgba(211, 170, 160, 0.1);
+$box-shodow2: rgba(208, 147, 83, 0.4);
+$box-shodow3: rgba(228, 199, 193, 0.5);
+$box-shodow4: rgba(208, 147, 83, 0.3);                         ////穴位介绍的区域阴影
+$box-shodow5: rgba(228,199,193,0.50);
+
+$border: #e2e7d0;
+$border1: #de9648;
+$border2: rgba(222, 150, 72, 0.4);
+$border3: rgba(222, 150, 72, 0.6);
+$border4: #f1d8bd;
+$border5: #e5caa2;
+$border6: rgba(215,157,97,0.40);
+$border7: rgba(255,255,255,0.50);
+$border8: #f6f1ec;
+$border9: #DE9648;
+$border10: #E4C1A6;
+
+$border-color: #e2dddc;
+$border-color1: #efaa60;
+$border-color2: rgba(222, 150, 72, 0.4);
+$border-color3: rgba(215, 157, 97, 0.4);
+$border-color4: rgba(255, 255, 255, 0.5);
+
+
+
+$border-left: rgba(222, 150, 72, 0.4);
+
+$background-image1: #F1CFB5;
+$background-image2: #F4D8C4;
+// 心系  end
+
+//   start
+$background-color-zygx: #BAD035;                                             //按钮背景色
+$background-color-zygx1: #F7F8F3;                                            //主题背景色
+$background-color-zygx2: #e2e7d0;
+$background-color-zygx3: #cad1b2;
+$background-color-zygx4: #e2dddc;
+$background-color-zygx5: #efaa60;
+$background-color-zygx6: #ffffff;
+$background-color-zygx7: rgba(239, 236, 226, 0.2);
+$background-color-zygx8: rgba(186,208,53,0.50);                          //按钮未选中的浅系颜色
+$background-color-zygx9: rgba(206,212,180,0.14);      //// 参考文献背景 
+// loading
+$background-color-zygx10: rgba(0,0,0,0.20);
+$background-color-zygx11: rgba(255,255,255,0.80);
+// pop
+$background-color-zygx12: rgba(0, 0, 0, 0.72);
+$background-color-zygx13: #ccb8b7;
+$background-color-zygx14: rgba(255, 255, 255, 0.9);
+// tag 渐变
+$background-color-zygx15: linear-gradient(269deg, #bfd7e4 0%, #aeccdc 100%);
+$background-color-zygx16: linear-gradient(90deg,
+#ccd7a7 0%,
+#dae3bc 100%);
+
+$background-color-zygx17: linear-gradient(269deg,
+#ece1c9 0%,
+#e2d3b4 100%);
+
+$background-color-zygx18: linear-gradient(269deg,
+#e7d7bf 0%,
+#e0c8a5 100%);
+
+$background-color-zygx19: linear-gradient(90deg,
+#b5c1f1 0%,
+#c4cff4 100%);
+
+$background-color-zygx20: linear-gradient(90deg,
+#f1d9b5 0%,
+#f4c4c4 100%);
+
+$background-color-zygx21: linear-gradient(90deg,
+#f1cfb5 0%,
+#f4d8c4 100%);
+$background-color-zygx22: rgba(255,255,255,0.90);
+$background-color-zygx23: rgba(208,186,179,0.14);
+$background-color-zygx24: rgba(204,184,183,0.5);
+$background-color-zygx25: rgba(222,150,72,0.50);
+
+$font-color-zygx: #9EA485;                                                     // 主题字体颜色
+$font-color-zygx1: #3D412F;                                                                                                               //思源字体颜色 
+$font-color-zygx2: #2f0000;
+$font-color-zygx3: #e2dddc;
+$font-color-zygx4: #333333;
+$font-color-zygx5: #999999;
+$font-color-zygx6: #ffffff;
+$font-color-zygx7: #2a2a2a;
+$font-color-zygx8: #666666;
+$font-color-zygx9: rgba(113, 58, 48, 0.6);
+$font-color-zygx10: #BAD035;                                                                                                              // 四个头部切换字体颜色
+$font-color-zygx11: #BAD035;                              //多选字体颜色
+$font-color-zygx12: #C4C4C4;
+$font-color-zygx13:  rgba(113,58,48,0.6);
+$font-color-zygx14:  #C4C4C4; 
+$font-color-zygx15: #DE9648;
+$font-color-zygx16: #DE9648;
+$font-color-zygx17:  #C7B1AF;
+$font-color-zygx18:  #E6805F;      //多吃了
+
+$box-shodow-zygx: rgba(186,208,53,0.40);                  // 主页下面大按钮的阴影
+$box-shodow1-zygx: rgba(185,192,162,0.10);                // 主页中间内容区的阴影
+$box-shodow2-zygx: rgba(186,208,53,0.30);               //多选提示区的阴影
+$box-shodow3-zygx: rgba(190,210,72,0.10);                // 重新测评阴影
+$box-shodow4-zygx: rgba(185,192,162,0.30);    ////穴位介绍的区域阴影
+$box-shodow5-zygx: rgba(228,199,193,0.50);
+
+$border: #e2e7d0;
+$border1-zygx: #BAD035;                               //选择运动方式，粗边框
+$border2-zygx: rgba(198,215,98,0.40);                 //选择运动方式，细边框
+$border3-zygx: rgba(186,208,53,0.40);                 //双边框颜色
+$border4: #f1d8bd;
+$border5-zygx: #C3D197;                                                                                                                 //调理原则里面的边框颜色
+$border6: rgba(215,157,97,0.40);
+$border7: rgba(255,255,255,0.50);
+$border8: #f6f1ec;
+$border9: #DE9648;
+$border10: #E4C1A6;
+
+$border-color: #e2dddc;
+$border-color1-zygx: #BAD035;                           //多选边框颜色
+$border-color2: rgba(222, 150, 72, 0.4);
+$border-color3: rgba(215, 157, 97, 0.4);
+$border-color4: rgba(255, 255, 255, 0.5);
+
+
+
+$border-left-zygx: rgba(186,208,53,0.40);
+
+$background-image1: #F1CFB5;
+$background-image2: #F4D8C4;
+// 肝系 end
+
+
+//   start
+$background-color-zyfx: #D9BD1C;                                             //按钮背景色
+$background-color-zyfx1: #F8F6F0;                                          //主题背景色
+$background-color-zyfx2: #e2e7d0;
+$background-color-zyfx3: #cad1b2;
+$background-color-zyfx4: #e2dddc;
+$background-color-zyfx5: #efaa60;
+$background-color-zyfx6: #ffffff;
+$background-color-zyfx7: rgba(239, 236, 226, 0.2);
+$background-color-zyfx8: rgba(217,189,28,0.50);                          //按钮未选中的浅系颜色
+$background-color-zyfx9: rgba(215,203,180,0.14);     //// 参考文献背景                   
+// loading
+$background-color-zyfx10: rgba(0,0,0,0.20);
+$background-color-zyfx11: rgba(255,255,255,0.80);
+// pop
+$background-color-zyfx12: rgba(0, 0, 0, 0.72);
+$background-color-zyfx13: #ccb8b7;
+$background-color-zyfx14: rgba(255, 255, 255, 0.9);
+// tag 渐变
+$background-color-zyfx15: linear-gradient(269deg, #bfd7e4 0%, #aeccdc 100%);
+$background-color-zyfx16: linear-gradient(90deg,
+#ccd7a7 0%,
+#dae3bc 100%);
+
+$background-color-zyfx17: linear-gradient(269deg,
+#ece1c9 0%,
+#e2d3b4 100%);
+
+$background-color-zyfx18: linear-gradient(269deg,
+#e7d7bf 0%,
+#e0c8a5 100%);
+
+$background-color-zyfx19: linear-gradient(90deg,
+#b5c1f1 0%,
+#c4cff4 100%);
+
+$background-color-zyfx20: linear-gradient(90deg,
+#f1d9b5 0%,
+#f4c4c4 100%);
+
+$background-color-zyfx21: linear-gradient(90deg,
+#f1cfb5 0%,
+#f4d8c4 100%);
+$background-color-zyfx22: rgba(255,255,255,0.90);
+$background-color-zyfx23: rgba(208,186,179,0.14);
+$background-color-zyfx24: rgba(204,184,183,0.5);
+$background-color-zyfx25: rgba(222,150,72,0.50);
+
+$font-color-zyfx: #ACA18B;                                              // 主题字体颜色
+$font-color-zyfx1: #5C4B2A;                                                                                //思源字体颜色
+$font-color-zyfx2: #2f0000;
+$font-color-zyfx3: #e2dddc;
+$font-color-zyfx4: #333333;
+$font-color-zyfx5: #999999;
+$font-color-zyfx6: #ffffff;
+$font-color-zyfx7: #2a2a2a;
+$font-color-zyfx8: #666666;
+$font-color-zyfx9: rgba(113, 58, 48, 0.6);
+$font-color-zyfx10: #D9BD1C;                                                                           // 四个头部切换字体颜色
+$font-color-zyfx11: #D9BD1C;                                               //多选字体颜色
+$font-color-zyfx12: #C4C4C4;
+$font-color-zyfx13:  rgba(113,58,48,0.6);
+$font-color-zyfx14:  #C4C4C4; 
+$font-color-zyfx15: #DE9648;
+$font-color-zyfx16: #DE9648;
+$font-color-zyfx17:  #C7B1AF;
+$font-color-zyfx18:  #E6785F;       //多吃了
+
+$box-shodow-zyfx: rgba(217,189,28,0.40);                  // 主页下面大按钮的阴影
+$box-shodow1-zyfx: rgba(185,192,162,0.10);                // 主页中间内容区的阴影
+$box-shodow2-zyfx: rgba(217,189,28,0.40);                 //多选提示区的阴影
+$box-shodow3-zyfx: rgba(217,189,28,0.10);                // 重新测评阴影
+$box-shodow4-zyfx: rgba(189,178,157,0.30);        ////穴位介绍的区域阴影
+$box-shodow5-zyfx: rgba(215,203,180,0.14);      
+
+$border: #e2e7d0;
+$border1-zyfx: #D9BD1C;                               //选择运动方式，粗边框
+$border2-zyfx: rgba(218,200,97,0.40);                 //选择运动方式，细边框
+$border3-zyfx: rgba(217,189,28,0.40);                 //双边框颜色
+$border4: #f1d8bd;
+$border5-zyfx: #D4BF93;                                                                                //调理原则里面的边框颜色
+$border6: rgba(215,157,97,0.40);
+$border7: rgba(255,255,255,0.50);
+$border8: #f6f1ec;
+$border9: #DE9648;
+$border10: #E4C1A6;
+
+$border-color: #e2dddc;
+$border-color1-zyfx: #D9BD1C;                         //多选边框颜色
+$border-color2: rgba(222, 150, 72, 0.4);
+$border-color3: rgba(215, 157, 97, 0.4);
+$border-color4: rgba(255, 255, 255, 0.5);
+
+
+
+$border-left-zyfx: rgba(217,189,28,0.40);
+
+$background-image1: #F1CFB5;
+$background-image2: #F4D8C4;
+// 肺系 end
+
+//   start
+$background-color-zywx: #D7A82F;                                            //按钮背景色
+$background-color-zywx1: #F6F2EC;                                          //主题背景色
+$background-color-zywx2: #e2e7d0;
+$background-color-zywx3: #cad1b2;
+$background-color-zywx4: #e2dddc;
+$background-color-zywx5: #efaa60;
+$background-color-zywx6: #ffffff;
+$background-color-zywx7: rgba(239, 236, 226, 0.2);
+$background-color-zywx8:  rgba(215,168,47,0.50);                          //按钮未选中的浅系颜色
+$background-color-zywx9: rgba(214,192,178,0.14);         //// 参考文献背景 
+// loading
+$background-color-zywx10: rgba(0,0,0,0.20);
+$background-color-zywx11: rgba(255,255,255,0.80);
+// pop
+$background-color-zywx12: rgba(0, 0, 0, 0.72);
+$background-color-zywx13: #ccb8b7;
+$background-color-zywx14: rgba(255, 255, 255, 0.9);
+// tag 渐变
+$background-color-zywx15: linear-gradient(269deg, #bfd7e4 0%, #aeccdc 100%);
+$background-color-zywx16: linear-gradient(90deg,
+#ccd7a7 0%,
+#dae3bc 100%);
+
+$background-color-zywx17: linear-gradient(269deg,
+#ece1c9 0%,
+#e2d3b4 100%);
+
+$background-color-zywx18: linear-gradient(269deg,
+#e7d7bf 0%,
+#e0c8a5 100%);
+
+$background-color-zywx19: linear-gradient(90deg,
+#b5c1f1 0%,
+#c4cff4 100%);
+
+$background-color-zywx20: linear-gradient(90deg,
+#f1d9b5 0%,
+#f4c4c4 100%);
+
+$background-color-zywx21: linear-gradient(90deg,
+#f1cfb5 0%,
+#f4d8c4 100%);
+$background-color-zywx22: rgba(255,255,255,0.90);
+$background-color-zywx23: rgba(208,186,179,0.14);
+$background-color-zywx24: rgba(204,184,183,0.5);
+$background-color-zywx25: rgba(222,150,72,0.50);
+
+$font-color-zywx:   #AF9A8D;                                               // 主题字体颜色
+$font-color-zywx1: #60402C;                                                                                                   //思源字体颜色  
+$font-color-zywx2: #2f0000;
+$font-color-zywx3: #e2dddc;
+$font-color-zywx4: #333333;
+$font-color-zywx5: #999999;
+$font-color-zywx6: #ffffff;
+$font-color-zywx7: #2a2a2a;
+$font-color-zywx8: #666666;
+$font-color-zywx9: rgba(113, 58, 48, 0.6);
+$font-color-zywx10: #D7A82F;                                                                                     // 四个头部切换字体颜色
+$font-color-zywx11: #D7A82F;                           //多选字体颜色
+$font-color-zywx12: #C4C4C4;
+$font-color-zywx13:  rgba(113,58,48,0.6);
+$font-color-zywx14:  #C4C4C4; 
+$font-color-zywx15: #DE9648;
+$font-color-zywx16: #DE9648;
+$font-color-zywx17:  #C7B1AF;
+$font-color-zywx18:  #E65F5F;        //多吃了
+
+$box-shodow-zywx: rgba(215,168,47,0.40);                  // 主页下面大按钮的阴影
+$box-shodow1-zywx: rgba(185,192,162,0.10);                // 主页中间内容区的阴影
+$box-shodow2-zywx: rgba(215,168,47,0.30);             //多选提示区的阴影
+$box-shodow3-zywx: rgba(215,168,47,0.10);              // 重新测评阴影
+$box-shodow4-zywx: rgba(187,166,153,0.30);   ////穴位介绍的区域阴影
+$box-shodow5-zywx: rgba(228,199,193,0.50);
+
+$border: #e2e7d0;
+$border1-zywx: #D7A82F;                           //选择运动方式，粗边框
+$border2-zywx: rgba(220,185,96,0.40);                //选择运动方式，细边框
+$border3-zywx: rgba(215,168,47,0.60);               //双边框颜色
+$border4: #f1d8bd;
+$border5-zywx:  #D2B994;                                                                              //调理原则里面的边框颜色
+$border6: rgba(215,157,97,0.40);
+$border7: rgba(255,255,255,0.50);
+$border8: #f6f1ec;
+$border9: #DE9648;
+$border10: #E4C1A6;
+
+$border-color: #e2dddc;
+$border-color1-zywx: #D7A82F;                    //多选边框颜色
+$border-color2: rgba(222, 150, 72, 0.4);
+$border-color3: rgba(215, 157, 97, 0.4);
+$border-color4: rgba(255, 255, 255, 0.5);
+
+
+
+$border-left-zywx: rgba(215,168,47,0.40);
+
+$background-image1: #F1CFB5;
+$background-image2: #F4D8C4;
+// 胃系 end
+//   start
+$background-color-zysx: #54C6C9;                               //按钮背景色
+$background-color-zysx1: #F4F8F9;                              //主题背景色
+$background-color-zysx2: #e2e7d0;
+$background-color-zysx3: #cad1b2;
+$background-color-zysx4: #e2dddc;
+$background-color-zysx5: #efaa60;
+$background-color-zysx6: #ffffff;
+$background-color-zysx7: rgba(239, 236, 226, 0.2);
+$background-color-zysx8: rgba(84,198,201,0.50);              //按钮未选中的浅系颜色
+$background-color-zysx9: rgba(179,190,211,0.14);        //// 参考文献背景 
+// loading
+$background-color-zysx10: rgba(0,0,0,0.20);
+$background-color-zysx11: rgba(255,255,255,0.80);
+// pop
+$background-color-zysx12: rgba(0, 0, 0, 0.72);
+$background-color-zysx13: #ccb8b7;
+$background-color-zysx14: rgba(255, 255, 255, 0.9);
+// tag 渐变
+$background-color-zysx15: linear-gradient(269deg, #bfd7e4 0%, #aeccdc 100%);
+$background-color-zysx16: linear-gradient(90deg,
+#ccd7a7 0%,
+#dae3bc 100%);
+
+$background-color-zysx17: linear-gradient(269deg,
+#ece1c9 0%,
+#e2d3b4 100%);
+
+$background-color-zysx18: linear-gradient(269deg,
+#e7d7bf 0%,
+#e0c8a5 100%);
+
+$background-color-zysx19: linear-gradient(90deg,
+#b5c1f1 0%,
+#c4cff4 100%);
+
+$background-color-zysx20: linear-gradient(90deg,
+#f1d9b5 0%,
+#f4c4c4 100%);
+
+$background-color-zysx21: linear-gradient(90deg,
+#f1cfb5 0%,
+#f4d8c4 100%);
+$background-color-zysx22: rgba(255,255,255,0.90);
+$background-color-zysx23: rgba(208,186,179,0.14);
+$background-color-zysx24: rgba(204,184,183,0.5);
+$background-color-zysx25: rgba(222,150,72,0.50);
+
+$font-color-zysx: #808DA8;                          // 主题字体颜色
+$font-color-zysx1: #364157;                                                                                   //思源字体颜色
+$font-color-zysx2: #2f0000;
+$font-color-zysx3: #e2dddc;
+$font-color-zysx4: #333333;
+$font-color-zysx5: #999999;
+$font-color-zysx6: #ffffff;
+$font-color-zysx7: #2a2a2a;
+$font-color-zysx8: #666666;
+$font-color-zysx9: rgba(113, 58, 48, 0.6);
+$font-color-zysx10:  #54C6C9;                                                                                   // 四个头部切换字体颜色
+$font-color-zysx11:   #54C6C9;                         //多选字体颜色
+$font-color-zysx12: #C4C4C4;
+$font-color-zysx13:  rgba(113,58,48,0.6);
+$font-color-zysx14:  #C4C4C4; 
+$font-color-zysx15: #DE9648;
+$font-color-zysx16: #DE9648;
+$font-color-zysx17:  #C7B1AF;
+$font-color-zysx18:  #E6C35F;        //多吃了
+
+$box-shodow-zysx: rgba(84,198,201,0.40);               // 主页下面大按钮的阴影
+$box-shodow1-zysx: rgba(160,171,191,0.10);             // 主页中间内容区的阴影
+$box-shodow2-zysx: rgba(84,198,201,0.30);              //多选提示区的阴影
+$box-shodow3-zysx: rgba(84,198,201,0.20);              // 重新测评阴影
+$box-shodow4-zysx: rgba(160,171,191,0.30);       ////穴位介绍的区域阴影
+$box-shodow5-zysx: rgba(228,199,193,0.50);
+
+$border: #e2e7d0;
+$border1-zysx: #54C6C9;                              //选择运动方式，粗边框
+$border2-zysx: rgba(142,197,199,0.40);                //选择运动方式，细边框
+$border3-zysx: rgba(84,198,201,0.60);                //双边框颜色
+$border4: #f1d8bd;
+$border5-zysx: #A1C3D7;                                                                                          //调理原则里面的边框颜色
+$border6: rgba(215,157,97,0.40);
+$border7: rgba(255,255,255,0.50);
+$border8: #f6f1ec;
+$border9: #DE9648;
+$border10: #E4C1A6;
+
+$border-color: #e2dddc;
+$border-color1-zysx:  #54C6C9;                        //多选边框颜色
+$border-color2: rgba(222, 150, 72, 0.4);
+$border-color3: rgba(215, 157, 97, 0.4);
+$border-color4: rgba(255, 255, 255, 0.5);
+
+
+
+$border-left-zysx: rgba(84,198,201,0.40);
+
+$background-image1: #F1CFB5;
+$background-image2: #F4D8C4;
+// 肾系 end

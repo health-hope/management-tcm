@@ -1,0 +1,242 @@
+/**
+ * 公共样式
+ */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+dl,
+dt,
+dd,
+header,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #f7f7f7;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+img {
+  border: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+input {
+  user-select: initial;
+  -webkit-appearance: none;
+  outline: none !important;
+  border: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mg_32 {
+  margin-top: .8rem;
+}
+
+html.full {
+  height: 100%;
+  body {
+    height: 100%;
+    #app {
+      height: 100%;
+      & > div {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.tab_pd_bottom {
+  padding-bottom: 3.3rem;
+}
+
+.pb_20 {
+  padding-bottom: .5rem;
+}
+
+// flex布局公共样式
+.flex {
+  display: flex;
+}
+
+.flex_dc {
+  flex-direction: column;
+}
+
+.flex_as {
+  align-items: flex-start;
+}
+
+.flex_ac {
+  align-items: center;
+}
+
+.flex_ae {
+  align-items: flex-end;
+}
+
+.flex_js {
+  justify-content: space-around;
+}
+
+.flex_jc {
+  justify-content: center;
+}
+
+.flex_jb {
+  justify-content: space-between;
+}
+
+.flex_je {
+  justify-content: flex-end;
+}
+
+//解决ios点击出现半透明背景
+.tap_events {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.btn_active { //激活按钮状态
+  background: #4566ea;
+  color: #ffffff;
+}
+
+.btn_disable { //按钮不可用状态
+  background: #f6f6f6;
+  color: #c8c8c8;
+}
+
+.user_tap_no_select {
+  user-select: none;
+}
+
+// 日历和表格切换动画
+.swipe_left {
+  animation-name: swipe_left;
+  animation-duration: 200ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes swipe_left {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.swipe_right {
+  animation-name: swipe_right;
+  animation-duration: 200ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes swipe_right {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+// 高 中 低  三种色值
+.color_light {
+  color: #66b5ff;
+}
+
+.color_high {
+  color: #E17470;
+}
+
+.color_normal {
+  color: #6ed9c8;
+}
+// toast提示框样式
+.mint-msgbox{
+  width: 13.75rem!important;
+  border-radius: 12px!important;
+}
+.mint-msgbox-header{
+  padding: 1.5rem 0 .8rem !important;
+  font-size: .85rem;
+  color: #252525;
+}
+.mint-msgbox-btn{
+ 
+  font-weight: bolder;
+  font-size: .85rem!important;
+  color: #606060;
+  border: none!important;
+}
+.mint-msgbox-btns{
+  height: 2.7rem!important;
+  line-height: 2.7rem!important;
+ 
+}
+
+.mint-spinner-snake {
+  width: 0.6rem !important;
+  height: 0.6rem !important;
+}
+
+
+.no_data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  img {
+    width: 4rem;
+    height: 4rem;
+  }
+  span {
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+    color: #929292;
+  }
+}

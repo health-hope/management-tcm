@@ -1,0 +1,39 @@
+.container {
+    background: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    header {
+      padding: 0.5rem 0.75rem;
+      width: 100%;
+      background: #fff;
+      position: fixed;
+      top: 0;
+    }
+    .history_box {
+      background: #fff;
+      font-size: 0.8rem;
+      .history_title {
+        padding: 0 0.8rem 0 1rem;
+        height: 2.5rem;
+  
+        color: #929292;
+        .dustbin {
+          width: 1.3rem;
+        }
+      }
+  
+      .history_list {
+        color: #4a4a4a;
+        li {
+          height: 2.5rem;
+          padding-left: 1rem;
+          border-top: 1px solid #ededed;
+        }
+      }
+    }
+    .list{
+      padding-top: 2.5rem;
+    }
+  }
